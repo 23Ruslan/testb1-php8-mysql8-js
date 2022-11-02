@@ -1,0 +1,2 @@
+https://github.com/shuchkin/simplexls
+SimpleXLS is external library, only for converting .xls file to php array for second task only, library is in the file SimpleXLS.php, other libraries and frameworks were not used in these two tasks.
