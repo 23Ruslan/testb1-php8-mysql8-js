@@ -4,7 +4,7 @@ DROP
 -- table structure
 CREATE TABLE from_file (
     id 							INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    random_date 				date NOT NULL,
+    random_date 				DATE NOT NULL,
     random_lat_string 			VARCHAR(10) NOT NULL,
     random_rus_string 			VARCHAR(10) NOT NULL,
     random_even_number 			INT UNSIGNED NOT NULL,
