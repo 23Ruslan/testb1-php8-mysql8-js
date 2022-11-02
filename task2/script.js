@@ -1,9 +1,9 @@
-function checkFile(fileldObj) // проверяем расширение файла
+function checkFile(fileldObj)                       // file extension check
 {
     let FileName  = fileldObj.value,
         FileExt = FileName.substr(FileName.lastIndexOf('.') + 1),
         FileSize = fileldObj.files[0].size,
-        FileSizeMB = (FileSize/5485760).toFixed(2); // загрузим имя текущего файла в сессию:
+        FileSizeMB = (FileSize/5485760).toFixed(2); // load the name of the current file into the session:
     sessionStorage.setItem("currentFileName", 'http://localhost/b1/task2/uploads/' + FileName.substr(FileName.lastIndexOf('\\')+1)); // this is needed to download the html later
 
     if ( (FileExt !== "xls") || FileSize > 5485760)
